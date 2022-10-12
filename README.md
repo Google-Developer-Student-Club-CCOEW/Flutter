@@ -1,4 +1,34 @@
 # Flutter
+Tech Tutor
+
+There will be 3 different users: student, teacher, parent. This app will be used for smoother and easier communication between the users. There will be 3 different sign up pages for each user. A unique username (among all the users) should be chosen by the user which will later be helpful in logging in. Many different and interesting libraries and widgets will be used to create the frontend of the app. 
+The features of the app will be:
+
+
+
+Teacher can-
+  1.Add attendance
+  2.Add marks
+  3.Upload study material
+  4.Make announcements
+  5.Upload timetable
+  6.Chat with parent
+  7.Answer students’ doubs
+
+
+Student can-
+  1.Upload assignments
+  2.Check marks, attendance
+  3.Reading Access to the study material
+  4.Reading Access to the timetable
+  5.Ask doubts to the teacher
+
+
+Parent can-
+  1.Check their child’s attendance, marks
+  2.Chat with teacher
+
+
 
 
 ![GDSC](https://user-images.githubusercontent.com/56436897/193326497-f15493fe-c12e-455f-b86c-28fcf539e7a7.png)
