@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Flutter
 Tech Tutor
 
@@ -85,3 +86,21 @@ git push origin <branch-name>
 **8.** Create a [Pull Request/PR](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) !
 
 **9.** **Congratulations!** Sit and relax, you've made your contribution to Flutter repository of GDSC Cummins.
+=======
+# tech_tutor
+
+A new Flutter project.
+
+## Getting Started
+
+This project is a starting point for a Flutter application.
+
+A few resources to get you started if this is your first Flutter project:
+
+- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+
+For help getting started with Flutter, view our
+[online documentation](https://flutter.dev/docs), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
+>>>>>>> be7757b (Initial Commit)
