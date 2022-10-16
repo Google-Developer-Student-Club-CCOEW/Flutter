@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tech_tutor/splashscreen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,31 +16,11 @@ class MyApp extends StatelessWidget {
           primarySwatch: Palette.kToDark,
           scaffoldBackgroundColor: const Color(0xFFB2B2B2)
       ),
-      home: const MyHomePage(title: 'TechTutor'),
+      home: const SplashScreen(),
     );
   }
 }
 
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({Key? key, required this.title}) : super(key: key);
-  final String title;
-
-  @override
-  State<MyHomePage> createState() => _MyHomePageState();
-}
-
-class _MyHomePageState extends State<MyHomePage> {
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text(widget.title),
-      ),
-      body: Container()
-    );
-  }
-}
 class Palette {
   static const MaterialColor kToDark = const MaterialColor(
     0xFF3C4048, // 0% comes in here, this will be color picked if no shade is selected when defining a Color property which doesn’t require a swatch.
