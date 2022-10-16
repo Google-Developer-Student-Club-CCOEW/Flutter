@@ -14,7 +14,7 @@ Teacher can-
   4.Make announcements
   5.Upload timetable
   6.Chat with parent
-  7.Answer students’ doubs
+  7.Answer students’ doubts
 
 
 Student can-
