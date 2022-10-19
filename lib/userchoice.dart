@@ -1,20 +1,18 @@
 import 'package:flutter/material.dart';
 
-import 'package:tech_tutor/main.dart';
-
 class UserChoice extends StatelessWidget {
   const UserChoice({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Palette.kToDark,
+      backgroundColor: const Color(0xff3C4048),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            Text(
+            const Text(
               'Who are you?',
               style: TextStyle(
                 fontSize: 32,
@@ -38,16 +36,19 @@ class UserChoice extends StatelessWidget {
   }) {
     return Container(
       margin: const EdgeInsets.symmetric(vertical: 10),
+      height: 65,
+      width: 370,
+      alignment: Alignment.center,
       child: ElevatedButton(
         style: ElevatedButton.styleFrom(
-          primary: Palette.kToDark.shade400,
+          primary: const Color(0xff00ABB3),
           fixedSize: const Size(350, 60),
           alignment: Alignment.center,
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(30),
           ),
           elevation: 10,
-          shadowColor: Palette.kToDark.shade300,
+          shadowColor: const Color(0xff00ABB3),
         ),
         onPressed: cb,
         child: getButtonHeading(title: title),
