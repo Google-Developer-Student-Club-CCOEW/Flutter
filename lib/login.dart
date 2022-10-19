@@ -19,7 +19,7 @@ class LoginPage extends StatelessWidget {
                 child: Container(
                   margin: EdgeInsets.symmetric(horizontal: 80),
                   child: const KText(
-                      text: 'School Club',
+                      text: 'Tech Tutor',
                       size: 24,
                       fontWeight: FontWeight.bold,
                       color: AppColor.whiteColor),
@@ -83,7 +83,7 @@ class LoginPage extends StatelessWidget {
                               child: TextFormField(
                                 decoration: const InputDecoration(
                                     label: KText(
-                                        text: 'Enter your email',
+                                        text: 'Username',
                                         size: 14,
                                         fontWeight: FontWeight.bold,
                                         color: AppColor.whiteGreyColor),
