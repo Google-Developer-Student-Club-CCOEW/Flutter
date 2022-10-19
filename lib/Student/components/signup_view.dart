@@ -11,7 +11,7 @@ class StudentSignupView extends StatelessWidget {
         child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
-            children: const []),
+            children: const [TextField()]),
       ),
     );
   }
