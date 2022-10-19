@@ -29,6 +29,8 @@ Parent can-
   1.Check their child’s attendance, marks
   2.Chat with teacher
 
+colour scheme :
+https://colorhunt.co/palette/00abb33c4048b2b2b2eaeaea
 
 
 
