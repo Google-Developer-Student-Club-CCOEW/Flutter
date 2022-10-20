@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:tech_tutor/Student/components/signup_view.dart';
+import 'package:tech_tutor/Student/components/widgets/gtextfield.dart';
 import 'package:tech_tutor/colors.dart';
 
 class SignUpStudent extends StatefulWidget {
@@ -11,10 +12,13 @@ class SignUpStudent extends StatefulWidget {
 }
 
 class _SignUpStudentState extends State<SignUpStudent> {
+  TextEditingController username = TextEditingController();
+  TextEditingController password = TextEditingController();
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: lightGreyColor,
+      backgroundColor: Colors.white,
       body: SingleChildScrollView(
         physics: const BouncingScrollPhysics(),
         child: SizedBox(
@@ -25,9 +29,7 @@ class _SignUpStudentState extends State<SignUpStudent> {
             ),
             child: Column(
               children: [
-                const SizedBox(
-                  height: 30,
-                ),
+                const SizedBox(height: 30),
                 SizedBox(
                   height: MediaQuery.of(context).size.height * 0.4,
                   child: SvgPicture.asset(
@@ -38,32 +40,28 @@ class _SignUpStudentState extends State<SignUpStudent> {
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      TextField(
-                        decoration: InputDecoration(
-                          label: const Text('username'),
-                          border: OutlineInputBorder(
-                              borderRadius: BorderRadius.circular(25),
-                              borderSide:
-                                  BorderSide(color: darkColor, width: 0.1)),
+                      SizedBox(
+                        height: 55,
+                        child: GTextField(
+                          controller: username,
+                          label: 'username',
                           hintText: 'johndoe',
                         ),
                       ),
                       const SizedBox(
-                        height: 8,
+                        height: 6,
                       ),
-                      TextField(
-                        obscureText: true,
-                        decoration: InputDecoration(
-                          label: const Text('password'),
-                          border: OutlineInputBorder(
-                              borderRadius: BorderRadius.circular(25),
-                              borderSide:
-                                  BorderSide(color: darkColor, width: 0.1)),
+                      SizedBox(
+                        height: 50,
+                        child: GTextField(
+                          controller: password,
+                          label: 'password',
                           hintText: 'password',
+                          isPassword: true,
                         ),
                       ),
                       const SizedBox(
-                        height: 20,
+                        height: 60,
                       ),
                       SizedBox(
                         width: double.infinity,

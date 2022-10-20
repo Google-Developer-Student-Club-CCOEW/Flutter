@@ -35,6 +35,8 @@ dependencies:
   cupertino_icons: ^1.0.2
   hexcolor: ^3.0.1
   flutter_svg: ^1.1.5
+  intl: ^0.17.0
+  smooth_page_indicator: ^1.0.0+2
 
 dev_dependencies:
   flutter_test:

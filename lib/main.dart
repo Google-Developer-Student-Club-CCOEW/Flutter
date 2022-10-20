@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:tech_tutor/Student/signupstudent.dart';
-import 'package:tech_tutor/splashscreen.dart';
 
 void main() {
   runApp(const MyApp());
