@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tech_tutor/Student/signupstudent.dart';
+import 'package:tech_tutor/splashscreen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
           primarySwatch: Palette.kToDark,
           scaffoldBackgroundColor: const Color(0xFFB2B2B2)),
-      home: const SignUpStudent(),
+      home: const SplashScreen(),
     );
   }
 }
