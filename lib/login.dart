@@ -9,7 +9,7 @@ class LoginPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: AppColor.backgrondColor,
+        backgroundColor: Palette.kToDark,
         elevation: 0,
         actions: [
           Row(
@@ -51,7 +51,7 @@ class LoginPage extends StatelessWidget {
               width: MediaQuery.of(context).size.width,
               height: MediaQuery.of(context).size.height,
               decoration: const BoxDecoration(
-                color: AppColor.backgrondColor,
+                color: Palette.kToDark,
               ),
               child: Column(
                 children: [
@@ -162,7 +162,7 @@ class LoginPage extends StatelessWidget {
                     ),
                   ),
                   const Center(
-                    child: const KText(
+                    child: KText(
                         text: 'Don\'t already have an account?',
                         size: 20,
                         fontWeight: FontWeight.bold,
@@ -191,71 +191,14 @@ class LoginPage extends StatelessWidget {
                           );
                         },
                         child: const Center(
-                          child: Text(
-                            'Sign Up Here',
-                            style: TextStyle(
-                                color: Colors.white,
-                                fontFamily: 'Poppins',
-                                fontSize: 16,
-                                fontWeight: FontWeight.w700),
-                          ),
+                          child: KText(
+                              text: 'Sign Up Here',
+                              size: 20,
+                              fontWeight: FontWeight.bold,
+                              color: AppColor.whiteGreyColor),
                         ),
                       ),
                     ),
-                  ),
-                  const SizedBox(
-                    height: 5,
-                  ),
-                  const Text('_________Or Register using_______'),
-                  const SizedBox(
-                    height: 5,
-                  ),
-                  Container(
-                    margin: const EdgeInsets.only(left: 20, right: 20),
-                    height: 50,
-                    width: MediaQuery.of(context).size.width / 1.5,
-                    decoration: BoxDecoration(
-                        border: const Border(
-                          bottom: BorderSide(
-                              color: Colors.red,
-                              width: 1,
-                              style: BorderStyle.solid),
-                          top: BorderSide(
-                              color: Colors.red,
-                              width: 1,
-                              style: BorderStyle.solid),
-                          left: BorderSide(
-                              color: Colors.red,
-                              width: 1,
-                              style: BorderStyle.solid),
-                          right: BorderSide(
-                              color: Colors.red,
-                              width: 1,
-                              style: BorderStyle.solid),
-                        ),
-                        borderRadius: BorderRadius.circular(80),
-                        color: Colors.white),
-                    child: TextButton(
-                        onPressed: () {},
-                        child: Row(
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          children: const [
-                            SizedBox(
-                              width: 3,
-                            ),
-                            Padding(
-                              padding: EdgeInsets.only(top: 4.0),
-                              child: Text(
-                                'Google',
-                                style: TextStyle(
-                                    color: Colors.black,
-                                    fontWeight: FontWeight.w700,
-                                    fontFamily: 'Poppins',
-                                    fontSize: 16),
-                              ),
-                            ),
-                          ],
-                        )),
                   ),
                 ],
               ),
