@@ -1,41 +1,34 @@
-<<<<<<< HEAD
 # Flutter
+
 Tech Tutor
 
-There will be 3 different users: student, teacher, parent. This app will be used for smoother and easier communication between the users. There will be 3 different sign up pages for each user. A unique username (among all the users) should be chosen by the user which will later be helpful in logging in. Many different and interesting libraries and widgets will be used to create the frontend of the app. 
+There will be 3 different users: student, teacher, parent. This app will be used for smoother and easier communication between the users. There will be 3 different sign up pages for each user. A unique username (among all the users) should be chosen by the user which will later be helpful in logging in. Many different and interesting libraries and widgets will be used to create the frontend of the app.
 The features of the app will be:
 
-
-
 Teacher can-
-  1.Add attendance
-  2.Add marks
-  3.Upload study material
-  4.Make announcements
-  5.Upload timetable
-  6.Chat with parent
-  7.Answer students’ doubts
-
+1.Add attendance
+2.Add marks
+3.Upload study material
+4.Make announcements
+5.Upload timetable
+6.Chat with parent
+7.Answer students’ doubts
 
 Student can-
-  1.Upload assignments
-  2.Check marks, attendance
-  3.Reading Access to the study material
-  4.Reading Access to the timetable
-  5.Ask doubts to the teacher
-
+1.Upload assignments
+2.Check marks, attendance
+3.Reading Access to the study material
+4.Reading Access to the timetable
+5.Ask doubts to the teacher
 
 Parent can-
-  1.Check their child’s attendance, marks
-  2.Chat with teacher
+1.Check their child’s attendance, marks
+2.Chat with teacher
 
 colour scheme :
 https://colorhunt.co/palette/00abb33c4048b2b2b2eaeaea
 
-
-
 ![GDSC](https://user-images.githubusercontent.com/56436897/193326497-f15493fe-c12e-455f-b86c-28fcf539e7a7.png)
-
 
 ## Contributing to this Repo
 
@@ -88,7 +81,7 @@ git push origin <branch-name>
 **8.** Create a [Pull Request/PR](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) !
 
 **9.** **Congratulations!** Sit and relax, you've made your contribution to Flutter repository of GDSC Cummins.
-=======
+
 # tech_tutor
 
 A new Flutter project.
@@ -105,4 +98,3 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
->>>>>>> be7757b (Initial Commit)
