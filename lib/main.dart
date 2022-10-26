@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tech_tutor/Parent/signupparent.dart';
-
+import 'package:tech_tutor/Teacher/signupteacher.dart';
 void main() {
   runApp(const MyApp());
 }
@@ -16,7 +15,7 @@ class MyApp extends StatelessWidget {
           primarySwatch: Palette.kToDark,
           scaffoldBackgroundColor: const Color(0xFFB2B2B2)
       ),
-      home: const SignUpParent(),
+      home: const SignUpTeacher(),
     );
   }
 }
